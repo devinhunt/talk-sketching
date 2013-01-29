@@ -1,0 +1,96 @@
+.csstransforms .title-slide hgroup {
+  text-align: center;
+  padding: 0 48px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+.csstransforms .title-slide hgroup h1 {
+  padding: 0;
+  position: static;
+  top: 0;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+.deck-container {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin: 0 2em;
+  background: #f4f4f4;
+  color: #0c052e;
+}
+.deck-container > .persona {
+  background: #3287e7;
+  color: white;
+}
+.deck-container > .userstory {
+  background: #cc0707;
+  color: white;
+}
+.deck-container > .usersketching {
+  background: #2B3844;
+  color: #FAEFDE;
+}
+.deck-container .slide h2 {
+  font-size: 2em;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  border: 0;
+  margin: 2em 0;
+  padding: 0;
+}
+.deck-container .slide p {
+  margin: 1em 0;
+  padding: 0;
+  font-size: 6em;
+}
+.deck-container .slide em {
+  font-style: normal;
+  font-weight: 700;
+}
+.deck-container .slide ul,
+.deck-container .slide ol {
+  margin: 0;
+}
+.deck-container .slide ul li,
+.deck-container .slide ol li {
+  font-size: 5em;
+  margin: .2em 0;
+  padding: 0;
+}
+.deck-container .slide ul ul,
+.deck-container .slide ol ul,
+.deck-container .slide ul ol,
+.deck-container .slide ol ol {
+  margin-left: 100px;
+  font-size: .5em;
+}
+.deck-container .slide .lyst {
+  font-family: "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+.deck-container .slide .dexio {
+  font-weight: 900;
+}
+.deck-container .slide .yc {
+  display: inline-block;
+  color: white;
+  background: orange;
+  padding: 0 .2em;
+}
+.deck-container .splash-image {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
